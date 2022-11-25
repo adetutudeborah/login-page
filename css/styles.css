@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oleo Script', cursive;
+}
+
+h2 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.8rem;
+    line-height: 2.0;
+    font-weight: 900;
+    padding: 5% 0%;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-weight: 500;
+    padding: 4% 0%;
+    text-align: center;
+   
+}
+
+h4 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    margin-top: -25px;
+    padding: 0px 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+h5 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2.0rem;
+    line-height: 1.8;
+    font-weight: 900;
+}
+
+h6 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.0rem;
+    line-height: 1.8;
+    text-align: center;
+    opacity: 0.7;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.0rem;
+    font-weight: 500;
+    background-color: transparent;
+    font-style: oblique;
+    opacity: 0.8;
+    
+    }
+
+ 
+.row{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* First section */
+
+#login-design{
+     background-color: #ffff;
+     padding: 0%;
+     height: 100%;
+}
+
+.carousel-caption{
+    color:  #1c1f23;
+    padding: 2% 10%;
+  }
+  
+  .carousel-item {
+      width: 100%;
+  }
+  
+  .carousel-item img {
+      object-fit: fill;
+      opacity: 0.6;
+      height: 100vh;
+      width: 80%;
+  }
+
+ .carousel-indicators{
+    bottom: -40px
+  }
+
+
+
+/* Second section */
+
+#form-page{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 0px;
+    line-height: 1.0;
+}
+
+form{
+    padding: 2% 15%;
+}
+
+.form-group {
+    line-height: 2.0;
+    padding: 5px;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.form-group::after {
+    content: "";
+    position: absolute;
+    width: 33%;
+    border-bottom: 1px solid #b2b2b2;
+  }
+
+input::placeholder{
+    color: #161616;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.password{
+    color: #75a1e1;
+    position: relative;
+    left: 70%;
+    font-size: 16px;
+}
+
+.sign{
+    text-align: center;
+    padding: 15px 0px 50px;
+}
+
+button {
+    font-family: 'Oleo Script', cursive;
+    font-weight: bolder;
+    border-radius: 40px;
+    margin: 5% auto;
+    display: block;
+    background-color: #696969;
+    border: 1px solid #696969;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px 80px;
+    text-decoration: none;
+    transition: all 200ms ease;
+  }
+  button:hover {
+    color: #696969;
+    background: #ffffff;
+    cursor: pointer;
+  }
+
+hr {
+    width: 20%;
+    margin: -28px auto;
+    padding: 0px;
+  }
+
+  .left {
+  width: 20%; 
+  text-align: left; 
+  margin-left: 160px;
+  }
+
+  .right {
+    width: 20%;
+    text-align: right;
+    margin-right: 160px;
+  }
+
+  .partition {
+    padding: 10% 0px 5%;
+  }
+
+ 
+
+@media only screen and (max-width:950px) {
+
+    .carousel-item img {
+        height: 50vh;
+        width: 50vh;
+    }       
+
+    .form-group::after {
+        width: 65%;
+        border-bottom: 1px solid #b2b2b2;
+      }
+
+           }
+
+@media only screen and (max-width:600px) {
+    h2 {
+        padding: 30px 0;
+        font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 18px;
+
+    }
+
+    h4 {
+        font-size: 14px; 
+    }
+    
+    h5 {
+        font-size: 24px;
+        line-height: 1.0;
+        font-weight: 900;
+    }
+
+    h6{
+       font-size: 14px;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 1.0;
+        font-weight: 500;
+        padding: 10% 0 0;
+        margin-bottom: 0;
+        }
+
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding: 30px 0px;
+        text-align: center;
+    }
+    
+    .form-group {
+        font-size: 20px;
+        padding: 2% 3%;
+        text-align: justify;
+    }
+
+    input::placeholder{
+        font-size: 22px;
+    }
+
+    .form-group::after {
+        width: 65%;
+        border-bottom: 1px solid #b2b2b2;
+      }
+
+    .password{
+        left: 58%;
+        font-size: 12px;
+    }
+
+    .sign{
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 10px 40px;
+      }
+
+    hr {
+        padding: 0;
+      }
+
+    .left {
+        width: 20%; 
+        text-align: left; 
+        margin-left: 85px;
+        }
+      
+    .right {
+        width: 20%;
+        text-align: right;
+        margin-right: 85px;
+        }
+
+    .partition {
+        padding: 20% 0px 1%;
+        }
+    
+ }
+
+ @media only screen and (max-width:300px) {
+    
+    h2 {
+        padding: 30px 0;
+        font-size: 20px;
+    }
+    
+    h3 {
+        font-size: 14px;
+
+    }
+
+    h4 {
+        font-size: 12px; 
+    }
+    
+    h5 {
+        font-size: 18px;
+        line-height: 1.0;
+        font-weight: 900;
+    }
+
+    h6{
+        font-size: 12px;
+     }
+     
+    p {
+        font-size: 12px;
+        line-height: 1.0;
+        font-weight: 500;
+        }
+    
+    .form-group {
+        font-size: 15px;
+        padding: 2% 3%;
+        text-align: justify;
+    }
+
+    input::placeholder{
+        font-size: 18px;
+    }
+
+    .password{
+        left: 52%;
+        font-size: 11px;
+    }
+
+    .sign{
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+    button {
+        font-size: 18px;
+        margin-top: 10px;
+        padding: 5px 30px;
+      }
+
+hr {
+    width: 20%;
+    margin: -25px auto;
+    padding: 0px;
+  }
+
+ .left {
+        width: 20%; 
+        text-align: left; 
+        margin-left: 70px;
+        }
+      
+.right {
+        width: 20%;
+        text-align: right;
+        margin-right: 70px;
+        }
+
+
+ .partition {
+        padding: 30% 0px 1%;
+         }
+             
+ }
+
+ @media only screen and (min-width:900px) {
+    h5 {
+        font-size: 2.0rem;
+        line-height: 1.8;
+        font-weight: 900;
+        opacity: 0.7;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        font-weight: 500;
+        }
+
+    .carousel-item img {
+      height: 140vh;
+}
+ }
+
+ @media only screen and (min-width:1200px) {
+    .carousel-item img {
+      height: 130vh;
+}
+ }
+
+ .icons8-google { 
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCI+CjxwYXRoIGZpbGw9IiNGRkMxMDciIGQ9Ik00My42MTEsMjAuMDgzSDQyVjIwSDI0djhoMTEuMzAzYy0xLjY0OSw0LjY1Ny02LjA4LDgtMTEuMzAzLDhjLTYuNjI3LDAtMTItNS4zNzMtMTItMTJjMC02LjYyNyw1LjM3My0xMiwxMi0xMmMzLjA1OSwwLDUuODQyLDEuMTU0LDcuOTYxLDMuMDM5bDUuNjU3LTUuNjU3QzM0LjA0Niw2LjA1MywyOS4yNjgsNCwyNCw0QzEyLjk1NSw0LDQsMTIuOTU1LDQsMjRjMCwxMS4wNDUsOC45NTUsMjAsMjAsMjBjMTEuMDQ1LDAsMjAtOC45NTUsMjAtMjBDNDQsMjIuNjU5LDQzLjg2MiwyMS4zNSw0My42MTEsMjAuMDgzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNGRjNEMDAiIGQ9Ik02LjMwNiwxNC42OTFsNi41NzEsNC44MTlDMTQuNjU1LDE1LjEwOCwxOC45NjEsMTIsMjQsMTJjMy4wNTksMCw1Ljg0MiwxLjE1NCw3Ljk2MSwzLjAzOWw1LjY1Ny01LjY1N0MzNC4wNDYsNi4wNTMsMjkuMjY4LDQsMjQsNEMxNi4zMTgsNCw5LjY1Niw4LjMzNyw2LjMwNiwxNC42OTF6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzRDQUY1MCIgZD0iTTI0LDQ0YzUuMTY2LDAsOS44Ni0xLjk3NywxMy40MDktNS4xOTJsLTYuMTktNS4yMzhDMjkuMjExLDM1LjA5MSwyNi43MTUsMzYsMjQsMzZjLTUuMjAyLDAtOS42MTktMy4zMTctMTEuMjgzLTcuOTQ2bC02LjUyMiw1LjAyNUM5LjUwNSwzOS41NTYsMTYuMjI3LDQ0LDI0LDQ0eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMxOTc2RDIiIGQ9Ik00My42MTEsMjAuMDgzSDQyVjIwSDI0djhoMTEuMzAzYy0wLjc5MiwyLjIzNy0yLjIzMSw0LjE2Ni00LjA4Nyw1LjU3MWMwLjAwMS0wLjAwMSwwLjAwMi0wLjAwMSwwLjAwMy0wLjAwMmw2LjE5LDUuMjM4QzM2Ljk3MSwzOS4yMDUsNDQsMzQsNDQsMjRDNDQsMjIuNjU5LDQzLjg2MiwyMS4zNSw0My42MTEsMjAuMDgzeiI+PC9wYXRoPgo8L3N2Zz4=') 50% 50% no-repeat;
+    background-size: 100%; }
