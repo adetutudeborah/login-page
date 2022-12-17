@@ -98,6 +98,12 @@ p {
     bottom: -40px
   }
 
+  .error {
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+  }
 
 
 /* Second section */
@@ -129,8 +135,9 @@ form{
 
 input::placeholder{
     color: #161616;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
+    opacity: 0.5;
 }
 
 .password{
@@ -145,7 +152,7 @@ input::placeholder{
     padding: 15px 0px 50px;
 }
 
-button {
+.button {
     font-family: 'Oleo Script', cursive;
     font-weight: bolder;
     border-radius: 40px;
@@ -159,7 +166,7 @@ button {
     text-decoration: none;
     transition: all 200ms ease;
   }
-  button:hover {
+  .button:hover {
     color: #696969;
     background: #ffffff;
     cursor: pointer;
